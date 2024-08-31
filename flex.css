@@ -1,0 +1,116 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+body{
+   
+    /* margin-left: 90px; */
+    /* margin: auto; */
+    /* gap: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* gap: 60px; */
+    border-radius: 10px;
+    margin-top: 55px;   
+    width: 90%;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 3px 8px 8px 6px grey;
+    width: 30%;
+    
+    
+}
+.image{
+    width: 100%;
+}
+
+.card-body{
+    padding: 13px;
+}
+.tag-purple{
+    background-color: rgb(74, 74, 195);
+
+    border-radius: 20px;
+    padding: 2px;
+    margin-left: 20px;
+
+}
+.tag-pink{
+    background-color: rgb(173, 74, 195);
+    border-radius: 20px;
+    padding: 2px;
+    margin-left: 20px;
+}
+h4{
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+}
+.image-1{
+    width: 40px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h5{
+    height: 1px;
+
+}
+
+.user{
+    display: flex;
+    gap: 8px;
+
+}
+.social-icons{
+    padding: 20px;
+    font-weight: bold;
+
+}
+a{
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 38px;
+    border-radius:1px;
+}
+.user-info small{
+    color: rgb(89, 86, 86);
+}
+
+@media(max-width:1024px)
+{
+    .card{
+        background-color: blueviolet;
+        width: 48%;
+
+    }
+}
+@media(max-width:767px)
+{
+    .card{
+        background-color: brown;
+        width: 100%;
+    }
+}
+
+     
